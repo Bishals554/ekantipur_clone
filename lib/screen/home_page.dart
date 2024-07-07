@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
-  HomePage({super.key});
+  const HomePage({super.key});
 
   @override
   State<HomePage> createState() => _HomePageState();
@@ -23,7 +23,6 @@ class _HomePageState extends State<HomePage> {
         backgroundColor: Colors.white,
         appBar: AppBar(
           backgroundColor: Colors.white,
-          // elevation: scaffoldKey.currentState?.isDrawerOpen ?? false ? 2 : 0,
           leading: Builder(
             builder: (BuildContext context) {
               return IconButton(
@@ -104,14 +103,14 @@ class _HomePageState extends State<HomePage> {
                                       fontWeight: FontWeight.bold,
                                       color: Colors.lightBlue[700])),
                               const SizedBox(height: 5),
-                              Text('To access all premium features',
+                              const Text('To access all premium features',
                                   style: TextStyle(fontSize: 10)),
                             ],
                           ),
                           ElevatedButton(
                             onPressed: () {},
                             style: ElevatedButton.styleFrom(
-                              minimumSize: Size(80, 30),
+                              minimumSize: const Size(80, 30),
                               elevation: 0,
                               backgroundColor:
                                   Colors.lightBlue.shade100.withOpacity(0.2),
@@ -128,13 +127,13 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ),
                   ListTile(
-                    title: Text('Item 1'),
+                    title: const Text('Item 1'),
                     onTap: () {
                       Navigator.pop(context);
                     },
                   ),
                   ListTile(
-                    title: Text('Item 2'),
+                    title: const Text('Item 2'),
                     onTap: () {
                       Navigator.pop(context);
                     },
@@ -142,7 +141,7 @@ class _HomePageState extends State<HomePage> {
                 ],
               ),
             ),
-            body: Center(
+            body: const Center(
               child: Text('Home Page'),
             )));
   }
