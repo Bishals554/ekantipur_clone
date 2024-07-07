@@ -1,3 +1,4 @@
+import 'package:ekantipur_app_clone/screen/widgets/custom_list_tile.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -128,16 +129,143 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ),
                   ListTile(
-                    title: const Text('Item 1'),
-                    onTap: () {
-                      Navigator.pop(context);
-                    },
+                    title: Text('Categories',
+                        style: TextStyle(
+                            fontSize: 16,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.lightBlue[700])),
+                    onTap: () {},
+                  ),
+                  const Divider(
+                    thickness: 0.1,
+                  ),
+                  CustomListTile(
+                    title: 'समाचार',
+                    onTap: () {},
+                  ),
+                  const Divider(
+                    thickness: 0.1,
+                  ),
+                  CustomListTile(
+                    title: 'अर्थ / वाणिज्य',
+                    onTap: () {},
+                  ),
+                  const Divider(
+                    thickness: 0.1,
+                  ),
+                  CustomListTile(
+                    title: 'विचार',
+                    onTap: () {},
+                  ),
+                  const Divider(
+                    thickness: 0.1,
+                  ),
+                  CustomListTile(
+                    title: 'खेलकुद',
+                    onTap: () {},
+                  ),
+                  const Divider(
+                    thickness: 0.1,
+                  ),
+                  CustomListTile(
+                    title: 'मनोरन्जन',
+                    onTap: () {},
+                  ),
+                  const Divider(
+                    thickness: 0.1,
+                  ),
+                  CustomListTile(
+                    title: 'फोटोफिचर',
+                    onTap: () {},
+                  ),
+                  const Divider(
+                    thickness: 0.1,
                   ),
                   ListTile(
-                    title: const Text('Item 2'),
-                    onTap: () {
-                      Navigator.pop(context);
-                    },
+                    title: const Text('फिचर'),
+                    onTap: () {},
+                  ),
+                  const Divider(
+                    thickness: 0.1,
+                  ),
+                  ListTile(
+                    title: const Text('विश्व'),
+                    onTap: () {},
+                  ),
+                  ListTile(
+                    title: const Text('ब्लग'),
+                    onTap: () {},
+                  ),
+                  const Divider(
+                    thickness: 0.1,
+                  ),
+                  ListTile(
+                    title: const Text('कोसेली'),
+                    onTap: () {},
+                  ),
+                  ListTile(
+                    title: const Text('प्रवास'),
+                    onTap: () {},
+                  ),
+                  const Divider(
+                    thickness: 0.1,
+                  ),
+                  ListTile(
+                    title: const Text('शिक्षा'),
+                    onTap: () {},
+                  ),
+                  ListTile(
+                    title: const Text('स्वास्थ्य'),
+                    onTap: () {},
+                  ),
+                  const Divider(
+                    thickness: 0.1,
+                  ),
+                  ListTile(
+                    title: const Text('कुराकनी'),
+                    onTap: () {},
+                  ),
+                  const Divider(
+                    thickness: 0.1,
+                  ),
+                  ListTile(
+                    title: const Text('साहित्य / विविध'),
+                    onTap: () {},
+                  ),
+                  const Divider(
+                    thickness: 0.1,
+                  ),
+                  ListTile(
+                    title: const Text('भिडियो'),
+                    onTap: () {},
+                  ),
+                  const Divider(
+                    thickness: 0.1,
+                  ),
+                  ListTile(
+                    title: const Text('विविधा'),
+                    onTap: () {},
+                  ),
+                  const Divider(
+                    thickness: 0.1,
+                  ),
+                  ListTile(
+                    title: const Text('बजार'),
+                    onTap: () {},
+                  ),
+                  const Divider(
+                    thickness: 0.1,
+                  ),
+                  ListTile(
+                    title: const Text('E-Paper'),
+                    onTap: () {},
+                  ),
+                  const Divider(
+                    thickness: 0.1,
+                  ),
+                  ListTile(
+                    title: const Text('Today\'s News'),
+                    onTap: () {},
                   ),
                 ],
               ),
