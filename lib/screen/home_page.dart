@@ -19,6 +19,7 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
+    // ignore: avoid_unnecessary_containers
     return Scaffold(
         backgroundColor: Colors.white,
         appBar: AppBar(
